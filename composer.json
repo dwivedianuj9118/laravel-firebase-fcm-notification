@@ -1,0 +1,61 @@
+{
+    "name": "dwivedianuj9118/firebase-fcm-notification",
+    "description": "This is laravel Firebase Cloud Messaging(FCM) Notification package for Php developer",
+    "keywords": [
+        "laravel",
+        "fcm",
+        "firebase",
+        "notifications",
+        "dwivedianuj9118",
+        "firebase-fcm-notification"
+    ],
+    "homepage": "https://github.com/dwivedianuj9118/firebase-fcm-notification",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Anuj Dwivedi",
+            "email": "dwivedianuj9118@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "kreait/firebase-php": "^7.16",
+        "guzzlehttp/guzzle": "^6.2|^7.0",
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dwivedianuj9118\\FirebaseFcmNotification\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dwivedianuj9118\\FirebaseFcmNotification\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dwivedianuj9118\\FirebaseFcmNotification\\FirebaseFcmNotificationServiceProvider"
+            ],
+            "aliases": {
+                "FirebaseFcmNotification": "Dwivedianuj9118\\FirebaseFcmNotification\\FirebaseFcmNotificationFacade"
+            }
+        }
+    }
+}
