@@ -1,11 +1,12 @@
 # Firebase FCM Notification for Laravel
 
 A Laravel wrapper to send Firebase Cloud Messaging (FCM) notifications via tokens, topics, or multicast using the [kreait/firebase-php](https://github.com/kreait/firebase-php) SDK.
-
+## Required Dependency
+```bash
+composer require "kreait/firebase-php:^7.0" 
+```
 ## 📦 Installation
-
 Install the package via Composer:
-
 ```bash
 composer require dwivedianuj9118/firebase-fcm-notification
 ```
