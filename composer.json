@@ -13,6 +13,8 @@
     "homepage": "https://github.com/dwivedianuj9118/firebase-fcm-notification",
     "license": "MIT",
     "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Anuj Dwivedi",
