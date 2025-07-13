@@ -9,6 +9,8 @@ composer require "kreait/firebase-php:^7.0"
 Install the package via Composer:
 ```bash
 composer require dwivedianuj9118/firebase-fcm-notification
+or 
+composer require dwivedianuj9118/firebase-fcm-notification:dev-main
 ```
 ### Vendor Publish
 ```bash
